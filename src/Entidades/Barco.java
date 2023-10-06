@@ -61,6 +61,11 @@ public class Barco {
     public void crearBarco() {
     }
 
+    @Override
+    public String toString() {
+        return "Barco{" + "matricula=" + matricula + ", eslora=" + eslora + ", anoFabricacion=" + anoFabricacion + ", modulo=" + modulo + '}';
+    }
+
     
     
 }
